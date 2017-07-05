@@ -5,29 +5,13 @@
     <div class="navbar-header">
       <a class="navbar-brand" href="/">หน้าแรก</a>
     </div>
-    @if(!empty($user[0]->id))
-    <ul class="nav navbar-nav">
-      <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-cog"> ข้อมูลพื้นฐาน</span></a>
-          <ul class="dropdown-menu">
-            <li>{!! Html::link('general', 'ข้อมูลที่ตั้ง') !!}</li>
-            <li>{!! Html::link('teacher', 'ข้อมูลครู') !!}</li>
-            <li>{!! Html::link('student', 'ข้อมูลนักเรียน') !!}</li>
-          </ul>
-      </li>
-      <li><a href="../dltv"><span class="glyphicon glyphicon-facetime-video"></span> DLTV</a></li>
-      <li><a href="../dlit"><span class="glyphicon glyphicon-cloud"></span> DLIT</a></li>
-      <li><a href="../electricity"><span class="glyphicon glyphicon-warning-sign"></span> ข้อมูลไฟฟ้า</a></li>
-      <li><a href="../manual"><span class="glyphicon glyphicon-book"></span> คู่มือ</a></li>
-    </ul>
-    @endif
-    @if(!empty($user[0]->schoolName))
+    @if(!empty($user[0]->schoolname))
     <ul class="nav navbar-nav navbar-right">
       <li><a href="#"><span class="glyphicon glyphicon-user "></span>
-            {{$user[0]->schoolName}}
+            {{$user[0]->schoolname}}
       </a></li>
       <li><a href="../logout"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
-      @endif
+    @endif
     </ul>
   </div>
 </nav>

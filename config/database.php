@@ -56,7 +56,7 @@ return [
           'driver' => 'mysql',
           'host' => 'localhost',
           'port' => '3306',
-          'database' => 'dlcluster16db',
+          'database' => 'rtdata_db',
           'username' => 'root',
           'password' => 'tootuu7413',
           'charset' => 'utf8',

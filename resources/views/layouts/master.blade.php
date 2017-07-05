@@ -87,8 +87,8 @@
   				</td>
   				<td width="3%"></td>
   				<td width="87%">
-  					<span class="ha1">ระบบรายงานสภาพการดำเนินงาน การศึกษาทางไกล</span>
-  					<p class="ha2">เขตตรวจราชการ 16 จังหวัดเชียงราย พะเยา แพร่ น่าน</p>
+  					<span class="ha1">แบบติดตาม ประเมินผล ตัวชี้วัดความสำเร็จตามยุทธศาสตร์</span>
+  					<p class="ha2">แผนปฏิบัติราชการประจำปีงบประมาณ พ.ศ. 2560</p>
   				</td>
   			</tr>
   		</table>
@@ -107,7 +107,7 @@
 
   	<div class="mastfoot">
   		    <div class="inner" align="center">
-  		      <p class="foot">©:เขตตรวจราชการ 16 จังหวัดเชียงราย พะเยา แพร่ น่าน</p>
+  		      <p class="foot">Copyright © 2017 All Rights Reserved.Site designed,developed & mentinance by <br />Singnarin Intaraksa</p>
   		    </div>
     </div>
 
